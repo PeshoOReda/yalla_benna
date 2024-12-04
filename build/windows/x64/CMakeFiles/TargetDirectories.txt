@@ -1,0 +1,10 @@
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/CMakeFiles/INSTALL.dir
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/CMakeFiles/yalla_benna.dir
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir

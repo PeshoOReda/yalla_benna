@@ -10,13 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'PeshoO Reda',
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
-      home: const MovieProfile(), // Set the splash screen as the home
+      home: MovieProfile(), // Set the splash screen as the home
     );
   }
 }

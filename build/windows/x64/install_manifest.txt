@@ -1,0 +1,16 @@
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/icudtl.dat
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/flutter_windows.dll
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/assets/is_favourite_false.svg
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/assets/is_favourite_true.svg
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/assets/no_movies_found.svg
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/assets/splash_screen.svg
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/assets/star_rate.svg
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/assets/title_Splash_screen.svg
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

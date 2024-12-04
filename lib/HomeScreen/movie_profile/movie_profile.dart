@@ -1,12 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:yalla_benna/core/assets_manager.dart';
 
 import '../../core/colors_manager.dart';
 import '../home/list_movie.dart';
 import '../home/movie_card.dart';
-import '../home/movie_card_with_details.dart';
 
 class MovieProfile extends StatelessWidget {
   const MovieProfile({super.key});
@@ -32,70 +28,44 @@ class MovieProfile extends StatelessWidget {
       ),
       backgroundColor: ColorsManager.bgColor,
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Container(
+          SizedBox(
             height: 244,
             width: double.infinity,
-            color: CupertinoColors.activeBlue,
             child: Image.asset(
               'assets/images/Image.png',
               fit: BoxFit.fill,
             ),
           ),
           const Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text('data', style: TextStyle(color: Colors.white)),
+            padding: EdgeInsets.symmetric(horizontal: 20.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text(
+                  'data',
+                  style: TextStyle(color: Colors.white, fontSize: 18),
+                ),
+                SizedBox(
+                  height: 8,
+                ),
+                Text(
+                  'data',
+                  style: TextStyle(
+                    color: Colors.white30,
+                  ),
+                ),
+              ],
+            ),
           ),
           const Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text('data', style: TextStyle(color: Colors.white)),
-          ),
-          const MovieCard(
-            isFav: true,
-          ),
-          Row(
-            children: [
-              const Expanded(
-                child: MovieCardWithDetails(
-                  isFav: false,
-                ),
-              ),
-              Expanded(
-                child: Column(
-                  children: [
-                    const Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        'data',
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ),
-                    const Padding(
-                      padding: EdgeInsets.all(8.0),
-                      child: Text(
-                        'data',
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ),
-                    Row(
-                      children: [
-                        SvgPicture.asset(
-                          AssetsManager.star,
-                          width: 15,
-                          height: 15,
-                        ),
-                        const Text(
-                          '7.7',
-                          style: TextStyle(color: Colors.white),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-            ],
+            padding: EdgeInsets.all(20.0),
+            child: SizedBox(
+              width: double.infinity,
+              height: 150,
+              child: MovieCard(isFav: false),
+            ),
           ),
           listMoviesWithDetails('More Like This'),
         ],
@@ -103,3 +73,54 @@ class MovieProfile extends StatelessWidget {
     );
   }
 }
+
+// const Padding(
+// padding: EdgeInsets.all(8.0),
+// child: Text('data', style: TextStyle(color: Colors.white)),
+// ),
+// const Padding(
+// padding: EdgeInsets.all(8.0),
+// child: Text('data', style: TextStyle(color: Colors.white)),
+// ),
+// Row(
+// children: [
+// const Expanded(
+// child: MovieCard(
+// isFav: false,
+// ),
+// ),
+// Expanded(
+// child: Column(
+// children: [
+// const Padding(
+// padding: EdgeInsets.all(8.0),
+// child: Text(
+// 'data',
+// style: TextStyle(color: Colors.white),
+// ),
+// ),
+// const Padding(
+// padding: EdgeInsets.all(8.0),
+// child: Text(
+// 'data',
+// style: TextStyle(color: Colors.white),
+// ),
+// ),
+// Row(
+// children: [
+// SvgPicture.asset(
+// AssetsManager.star,
+// width: 15,
+// height: 15,
+// ),
+// const Text(
+// '7.7',
+// style: TextStyle(color: Colors.white),
+// ),
+// ],
+// ),
+// ],
+// ),
+// ),
+// ],
+// ),

@@ -1,0 +1,28 @@
+^D:\PESHOPRO\ENG MOHAMED SAAD\YALLA_BENNA\BUILD\WINDOWS\X64\CMAKEFILES\87F7FE278B62A4A84B3669AA5E7691EB\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\Application\flutter "PROJECT_DIR=D:\PeshoPro\Eng Mohamed Saad\yalla_benna" FLUTTER_ROOT=D:\Application\flutter "FLUTTER_EPHEMERAL_DIR=D:\PeshoPro\Eng Mohamed Saad\yalla_benna\windows\flutter\ephemeral" "PROJECT_DIR=D:\PeshoPro\Eng Mohamed Saad\yalla_benna" "FLUTTER_TARGET=D:\PeshoPro\Eng Mohamed Saad\yalla_benna\lib\main.dart" DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\PeshoPro\Eng Mohamed Saad\yalla_benna\.dart_tool\package_config.json" D:/Application/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PESHOPRO\ENG MOHAMED SAAD\YALLA_BENNA\BUILD\WINDOWS\X64\CMAKEFILES\CE92B7F606A69FDDD8795393E1629045\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PESHOPRO\ENG MOHAMED SAAD\YALLA_BENNA\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/PeshoPro/Eng Mohamed Saad/yalla_benna/windows" "-BD:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64" --check-stamp-file "D:/PeshoPro/Eng Mohamed Saad/yalla_benna/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
           onTap: (index) {
             setState(
               () {
-                selectedIndex = index; // 1
+                selectedIndex = index;
               },
             );
           },
@@ -47,9 +47,12 @@ class _MyHomePageState extends State<MyHomePage> {
               backgroundColor: ColorsManager.bgTabs,
               icon: SvgPicture.asset(
                 AssetsManager.homeIcon,
-                color: selectedIndex == 0
-                    ? ColorsManager.isSelectedTab
-                    : ColorsManager.unSelectedTab,
+                colorFilter: ColorFilter.mode(
+                  selectedIndex == 0
+                      ? ColorsManager.isSelectedTab
+                      : ColorsManager.unSelectedTab,
+                  BlendMode.srcIn,
+                ),
               ),
               label: 'Home',
             ),
@@ -57,9 +60,12 @@ class _MyHomePageState extends State<MyHomePage> {
               backgroundColor: ColorsManager.bgTabs,
               icon: SvgPicture.asset(
                 AssetsManager.searchIcon,
-                color: selectedIndex == 1
-                    ? ColorsManager.isSelectedTab
-                    : ColorsManager.unSelectedTab,
+                colorFilter: ColorFilter.mode(
+                  selectedIndex == 1
+                      ? ColorsManager.isSelectedTab
+                      : ColorsManager.unSelectedTab,
+                  BlendMode.srcIn,
+                ),
               ),
               label: 'Search',
             ),
@@ -67,9 +73,12 @@ class _MyHomePageState extends State<MyHomePage> {
               backgroundColor: ColorsManager.bgTabs,
               icon: SvgPicture.asset(
                 AssetsManager.browseIcon,
-                color: selectedIndex == 2
-                    ? ColorsManager.isSelectedTab
-                    : ColorsManager.unSelectedTab,
+                colorFilter: ColorFilter.mode(
+                  selectedIndex == 2
+                      ? ColorsManager.isSelectedTab
+                      : ColorsManager.unSelectedTab,
+                  BlendMode.srcIn,
+                ),
               ),
               label: 'Browse',
             ),
@@ -77,9 +86,12 @@ class _MyHomePageState extends State<MyHomePage> {
               backgroundColor: ColorsManager.bgTabs,
               icon: SvgPicture.asset(
                 AssetsManager.watchListIcon,
-                color: selectedIndex == 3
-                    ? ColorsManager.isSelectedTab
-                    : ColorsManager.unSelectedTab,
+                colorFilter: ColorFilter.mode(
+                  selectedIndex == 3
+                      ? ColorsManager.isSelectedTab
+                      : ColorsManager.unSelectedTab,
+                  BlendMode.srcIn,
+                ),
               ),
               label: 'Watch List',
             ),
