@@ -17,7 +17,7 @@ class MovieCardWithDetails extends StatelessWidget {
     return Stack(
       children: [
         Padding(
-          padding: const EdgeInsets.only(right: 8),
+          padding: EdgeInsets.only(right: 8),
           child: Container(
             color: ColorsManager.bgCardMovie,
             child: Column(
@@ -25,19 +25,21 @@ class MovieCardWithDetails extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Expanded(
-                  child: Container(
-                    width: 100,
-                    height: double.infinity,
-                    padding: const EdgeInsets.all(8),
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage(
-                          'assets/images/d09cbedd39d8c74b576632e50de5c3d3.png',
+                  child: InkWell(
+                    child: Container(
+                      width: 100,
+                      height: double.infinity,
+                      padding: const EdgeInsets.all(8),
+                      decoration: const BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage(
+                            'assets/images/d09cbedd39d8c74b576632e50de5c3d3.png',
+                          ),
+                          fit: BoxFit.fill,
                         ),
-                        fit: BoxFit.fill,
+                        borderRadius:
+                            BorderRadius.vertical(top: Radius.circular(8.0)),
                       ),
-                      borderRadius:
-                          BorderRadius.vertical(top: Radius.circular(8.0)),
                     ),
                   ),
                 ),
